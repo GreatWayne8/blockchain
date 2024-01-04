@@ -1,0 +1,17 @@
+simple_list = [1,2,3,4,]
+simple_list.extend([5,6,7,8])
+del simple_list[1]
+print(simple_list)
+
+d={"name":"weezy"}
+print (d.items())
+for k, v in d.items():
+    print(k,v)
+
+t = (1,2,3)
+print (t.index(1))
+
+s={'money', 'more money', 'alot of money', 'money'}
+print(s)
+s.add('ann')
+print (s)
